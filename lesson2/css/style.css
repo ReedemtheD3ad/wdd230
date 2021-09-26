@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,700");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,700");
+
+:root {
+  --primary-color: #5d5c61;
+  --secondary-color: #379683;
+  --accent1-color: #7395ae;
+  --accent2-color: #557a95;
+  --heading-font: "IM Fell French Canon SC";
+  --paragraph-font: Lato, Helvetica, sans-serif;
+  --headline-color-on-white: black; /* headlines on a white background */
+  --headline-color-on-color: white; /* headlines on a colored background */
+  --paragraph-color-on-white: black; /* paragraph text on a white background */
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */
+  --paragraph-background-color: black;
+  --nav-link-color: #7395ae;
+  --nav-background-color: #5d5c61;
+  --nav-hover-link-color: #7395ae;
+  --nav-hover-background-color: #557a95;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+  margin-left: 0.5em;
+}
+
+/* Header */
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--paragraph-color-on-color);
+  background-color: #379683;
+  border: solid 5px #5d5c61;
+}
+header > h1,
+header > h2 {
+  color: var(--headline-color-on-color);
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 64px;
+}
+
+/* Content */
+      
+.content {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  font-size: 1.2em;
+  border: solid 5px #379683;
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 1em;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td {
+  width: 25%;
+  height: 3em;
+}
+
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
+
+/* Footer */
+.footer {
+  padding: 1em;
+  text-align: center;
+  color: var(--paragraph-color-on-color);
+  background-color: #379683;
+  border: solid 5px #5d5c61;
+}
