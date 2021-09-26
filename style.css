@@ -19,6 +19,8 @@
   --nav-hover-background-color: #557a95;
 }
 
+/* Header */
+
 h1,
 h2,
 h3,
@@ -30,7 +32,6 @@ h6 {
   margin-left: 0.5em;
 }
 
-/* Header */
 header {
   padding: 1em;
   text-align: center;
@@ -49,7 +50,6 @@ h1 {
 }
 
 /* Content */
-      
 .content {
   background-color: var(--nav-background-color);
   line-height: 3em;
@@ -80,6 +80,11 @@ p {
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
+}
+
+li {
+    margin-left: 2em;
+    margin-top: -1em;
 }
 
 /* Footer */
