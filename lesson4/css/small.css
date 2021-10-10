@@ -40,9 +40,7 @@ nav ul {
 nav ul li a {
     display: block;
     padding: .8rem 2%;
-    text-decoration: none;
-    color: rgba(242,242,242,1); 
-    
+    text-decoration: none;    
 }
 
 nav ul li.active a {
