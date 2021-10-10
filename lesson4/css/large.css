@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64rem) {
     nav {
-        background-color: #3c3c40;
+        background-color: #8cfd7e;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -37,7 +37,8 @@
     }
 
     header {
-        background-color: #8c8080 ;
+        background-color: #87ceeb ;
+        padding-left: 5em;
     }
 
 }
@@ -46,6 +47,5 @@ footer {
     font-size: 0.9em;
     padding: 1.5rem;
     text-align: center;
-    background-color:#8c8080;
-    border-radius: 1em;
+    background-color:#87ceeb;
 }
