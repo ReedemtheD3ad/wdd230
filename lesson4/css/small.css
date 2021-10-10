@@ -18,7 +18,6 @@ nav button {
 
 button {
     appearance: auto;
-    color: #f2f2f2;
     display: inline-block;
     text-align: center;
     align-items: flex-start;
@@ -29,8 +28,7 @@ nav {
     font-family:'Montserrat', sans-serif;
     display: flex;
     align-items: center;
-    justify-content: center;
-
+    padding-left: 4.25em;
 }
 
 nav ul {
@@ -49,7 +47,6 @@ nav ul li a {
 
 nav ul li.active a {
     background-color: transparent;
-    color: #f2f2f2;
 }
 
 
@@ -64,6 +61,7 @@ nav ul.hide {
     background-color: #D3D3D3;
     font-family: 'Roboto', sans-serif;
     margin-left: 7.5em;
+    margin-right:7.5em;
 }
 
 body {
@@ -95,7 +93,6 @@ h2 {
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #87CEEB;
 }
 
