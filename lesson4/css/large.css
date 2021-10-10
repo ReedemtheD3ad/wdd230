@@ -3,7 +3,7 @@
         background-color: #8cfd7e;
         display: flex;
         align-items: center;
-        justify-content: center;
+        padding-left: 4.25em;
     }
 
     nav button {
