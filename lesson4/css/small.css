@@ -60,12 +60,10 @@ nav ul.hide {
 .contentbox {
     display: block;
     margin: 10px auto;
-    border: 1px dashed #f2f2f2;
     padding: 15px;
-    background-color: #bfbfbf ;
-    color: #0d0d0d ;
+    background-color: #D3D3D3;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
+    margin-left: 7.5em;
 }
 
 body {
@@ -88,7 +86,6 @@ footer {
 
 h1 {
     font-size: 2.8rem;
-    color: #f2f2f2;
 }
 
 h2 {
