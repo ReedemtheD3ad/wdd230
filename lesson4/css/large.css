@@ -1,0 +1,51 @@
+@media only screen and (min-width: 64rem) {
+    nav {
+        background-color: #3c3c40;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: block;
+    }
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: .6rem 1rem;
+    }
+
+    header img {
+        width: 200px;
+        height: auto;
+    }
+
+    .h2main img {
+        text-align: center;
+    }
+
+    header {
+        background-color: #8c8080 ;
+    }
+
+}
+
+footer {
+    font-size: 0.9em;
+    padding: 1.5rem;
+    text-align: center;
+    background-color:#8c8080;
+    border-radius: 1em;
+}
